@@ -3,7 +3,7 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
-Master's course assignments in **Digital Control Systems** (Digitale Regelungen).  
+Assignments in **Digital Control Systems** (Digitale Regelungen).  
 Each folder contains MATLAB/Simulink files and the corresponding report PDF.
 
 The system studied throughout all assignments is a **rotational electromechanical system** — a motor driving an inertial load (J = 4.2×10⁻⁴ kg·m²) with an electrical/mechanical time constant T_EM = 3 ms.
@@ -34,10 +34,6 @@ HA05/   Kalman filter design (with and without disturbance)
 
 Key files: `HA01/ParameterHA1.m`, `HA01/HA01.slx`
 
-| Step response | Lab setup |
-|---|---|
-| ![](HA01/images/Praktikumsbericht%201_Quasikontinuierliche%20Regelungen%20und%20Digitales%20Betragsoptimum_p3_1.jpeg) | ![](HA01/images/Praktikumsbericht%201_Quasikontinuierliche%20Regelungen%20und%20Digitales%20Betragsoptimum_p4_1.png) |
-
 ---
 
 ### HA02 — Digital Magnitude Optimum
@@ -49,10 +45,6 @@ Key files: `HA01/ParameterHA1.m`, `HA01/HA01.slx`
 - Simulated in Simulink (`DR_Aufgabe02.slx`)
 
 Key files: `HA02/Aufgabe02_Parameter.m`, `HA02/DR_Aufgabe02.slx`
-
-| P-T1 response | Dead-time response |
-|---|---|
-| ![](HA02/images/DR_Hausaufgabe_2_p6_1.jpeg) | ![](HA02/images/DR_Hausaufgabe_2_p7_1.jpeg) |
 
 ---
 
@@ -67,10 +59,6 @@ Key files: `HA02/Aufgabe02_Parameter.m`, `HA02/DR_Aufgabe02.slx`
 
 Key files: `HA03/Simulink_DZR final/init1.m`, `HA03/Simulink_DZR final/digitaler_zr.mdl`
 
-| Dead-Beat | Binomial | Butterworth |
-|---|---|---|
-| ![](HA03/images/HA3_p9_1.jpeg) | ![](HA03/images/HA3_p11_1.jpeg) | ![](HA03/images/HA3_p12_1.jpeg) |
-
 ---
 
 ### HA04 — Parameter Identification
@@ -83,10 +71,6 @@ Key files: `HA03/Simulink_DZR final/init1.m`, `HA03/Simulink_DZR final/digitaler
 - Model validation by comparing simulated vs. measured output
 
 Key files: `HA04/HA04GP1.m`
-
-| Measured vs. identified model | Physical parameter fit |
-|---|---|
-| ![](HA04/images/Hausaufgabe_4_Parameteridentifikation%20GP%201_p3_1.png) | ![](HA04/images/Hausaufgabe_4_Parameteridentifikation%20GP%201_p4_1.png) |
 
 ---
 
@@ -101,10 +85,6 @@ Key files: `HA04/HA04GP1.m`
 
 Key files: `HA05/Parameter_kalmanfilter.m`, `HA05/ha5a.m`, `HA05/ha5b.m`
 
-| Without disturbance (3-state) | With disturbance (4-state) |
-|---|---|
-| ![](HA05/images/PR5_DR_p2_1.png) | ![](HA05/images/PR5_DR_p3_1.png) |
-
 ---
 
 ## Requirements
@@ -112,10 +92,3 @@ Key files: `HA05/Parameter_kalmanfilter.m`, `HA05/ha5a.m`, `HA05/ha5b.m`
 - MATLAB R2016a or later (Simulink required for `.slx` / `.mdl` models)
 - Symbolic Math Toolbox (HA03, HA05 use `syms`, `ilaplace`, `int`)
 - Optimization Toolbox (HA04 uses `fsolve`)
-
----
-
-## Course
-
-**Digitale Regelungen** — Master of Science, Semester 3  
-Faculty of Electrical Engineering / Mechatronics
