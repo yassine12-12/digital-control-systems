@@ -1,0 +1,12 @@
+# MATLAB cache & build artifacts
+slprj/
+*.slxc
+*.mex*
+*.asv
+
+# MATLAB autosave
+*.m~
+
+# OS
+.DS_Store
+Thumbs.db
